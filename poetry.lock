@@ -127,7 +127,7 @@ Django = ">=2.2"
 name = "django-debug-toolbar"
 version = "3.2.4"
 description = "A configurable set of panels that display various debug information about the current request/response."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -333,7 +333,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "a2d1f4da181bdbd81b6ce71facaacce9b2cc6f2cca84ff28cb0047ad03fed77c"
+content-hash = "edb5506c94e493ff27d41f01f52bb3d51fd7edcb2770ef794246cc408b8f4b54"
 
 [metadata.files]
 arrow = [
