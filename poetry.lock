@@ -193,6 +193,17 @@ Django = ">=2.2"
 sqlparse = ">=0.2.0"
 
 [[package]]
+name = "django-htmx"
+version = "1.9.0"
+description = "Extensions for using Django with htmx."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+Django = ">=2.2"
+
+[[package]]
 name = "django-jazzmin"
 version = "2.4.9"
 description = "Drop-in theme for django admin, that utilises AdminLTE 3 & Bootstrap 4 to make yo' admin look jazzy"
@@ -700,7 +711,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "a9f6c0143a250ef3aebf9246b3b3c3f2bb854a96b124283e6d23b88ae2b4750d"
+content-hash = "41a37fd92034d4cab8076255b6766e896c9bfed9b94232b5e77e58c6e7f792e8"
 
 [metadata.files]
 appnope = [
@@ -841,6 +852,10 @@ django-browser-reload = [
 django-debug-toolbar = [
     {file = "django-debug-toolbar-3.2.4.tar.gz", hash = "sha256:644bbd5c428d3283aa9115722471769cac1bec189edf3a0c855fd8ff870375a9"},
     {file = "django_debug_toolbar-3.2.4-py3-none-any.whl", hash = "sha256:6b633b6cfee24f232d73569870f19aa86c819d750e7f3e833f2344a9eb4b4409"},
+]
+django-htmx = [
+    {file = "django-htmx-1.9.0.tar.gz", hash = "sha256:7c5c6e7a98ae4498b39e3603362b979c9f017d42d027be3fd359d963a16ef2be"},
+    {file = "django_htmx-1.9.0-py3-none-any.whl", hash = "sha256:ee1065412f579ad5ff6ba0e1d1a564ac41ea32e9b6221a18ebde1922f2a3b6ef"},
 ]
 django-jazzmin = [
     {file = "django-jazzmin-2.4.9.tar.gz", hash = "sha256:93c786e927f1c51d1abd3ef82b411789f3c2f498bbaec85d52a8ba21157a62fe"},

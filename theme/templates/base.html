@@ -7,9 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {% tailwind_css %}
+
+    <script src="{% static 'htmx.min.js' %}" defer></script>
+    {% load django_htmx %}
+    {% django_htmx_script %}
   </head>
 
-  <body class="flex flex-row bg-blue-400">
+  <body
+      {#      https://github.com/adamchainz/django-htmx/blob/main/example/example/templates/csrf-demo.html#L11#}
+      hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
 
+      class="h-screen w-screen bg-blue-400">
+    {% block content %}
+    {% endblock %}
   </body>
 </html>

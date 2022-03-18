@@ -18,8 +18,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('djtutapp/', include('djtutapp.urls')),
-    path('polls/', include('polls.urls')),
+    path('djtutapp/', include(('djtutapp.urls', 'djtutapp'))),
+    path('polls/', include(('polls.urls', 'polls'))),
     path('__reload__/', include('django_browser_reload.urls')),
-    path('__debug__/', include('debug_toolbar.urls')),
+    path('__debug__/', include('debug_toolbar.urls'))
 ]
