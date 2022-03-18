@@ -1,0 +1,9 @@
+{
+  "python": {
+    "enabled": true
+  },
+  "enabledManagers": [
+    ""
+  ],
+  "rangeStrategy": "pin"
+}
