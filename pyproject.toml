@@ -12,7 +12,7 @@ djangorestframework = "3.13.1"
 uritemplate = "4.1.1"
 PyYAML = "6.0.0"
 django-tailwind = "3.1.1"
-django-jazzmin = "^2.4.9"
+django-jazzmin = "^3.0.0"
 django-htmx = "^1.9.0"
 
 [tool.poetry.dev-dependencies]
