@@ -16,7 +16,7 @@ django-jazzmin = "^2.4.9"
 django-htmx = "^1.9.0"
 
 [tool.poetry.dev-dependencies]
-django-debug-toolbar = "3.2.4"
+django-debug-toolbar = "4.4.6"
 ipykernel = "^6.9.2"
 
 [build-system]
